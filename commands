@@ -2,7 +2,7 @@ From Navigation Menu -> BigQuery.
 
 
 
-Task - 1 : Total Confirmed Cases:
+Task - 1 :: Total Confirmed Cases:
 
 SELECT sum(cumulative_confirmed) as total_cases_worldwide
 FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
@@ -10,7 +10,7 @@ WHERE date='2020-04-15'
 
 
 
-Task - 2 : Worst Affected Areas:
+Task - 2 :: Worst Affected Areas:
 
 with deaths_by_states as (
 
